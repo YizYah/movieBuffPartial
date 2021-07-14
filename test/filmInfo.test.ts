@@ -4,10 +4,9 @@ import {FilmFacts} from '../FilmFacts'
 
 import {
     mockSessionFromQuerySet,
-    mockResultsFromCapturedOutput,
     QuerySpec
 } from 'neo-forgery'
-import {filmInfo} from '../filmInfo'
+import {filmInfo} from '../src/filmInfo'
 
 const {filmQuery} = require('../filmQuery')
 const {expectedOutput} = require('./data/expectedOutput')
